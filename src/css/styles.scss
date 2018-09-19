@@ -1,0 +1,219 @@
+$custom_orange: rgb(247, 169, 56);
+
+a {
+  color: rgb(40, 69, 145);
+}
+
+.top-0 {
+  top: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.dark-overlay {
+  background: rgba(0,0,0,0.7);
+}
+
+.bg-orange {
+  background-color: $custom_orange;
+}
+
+.text-orange {
+  color: $custom_orange;
+}
+
+.navbar-separator {
+  border-right: 1px solid lightgray;
+  transform: rotate(20deg); 
+}
+
+.upcoming-fixture {
+  background-color: rgb(56, 62, 76);
+}
+
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1px solid lightgray;
+  background-color: transparent;
+}
+
+.carousel-indicators .active {
+  background-color: $custom_orange;
+}
+
+.newsletter-signup {
+  border-right: 4px solid $custom_orange;
+  background-color: rgb(155, 185, 223);
+  cursor: pointer;
+}
+
+.section-title {
+  border-left: 6px solid $custom_orange;
+}
+
+.tickets-container {
+  border-bottom: 7px solid $custom_orange;
+}
+
+.footbalLeagueTV {
+  border-left: 10px solid $custom_orange;
+}
+
+.carousel-link {
+  opacity: 1;
+}
+
+.contain-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cover-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fondo-footer {
+  background-image: url("../../src/img/fondo_footer.png");
+}
+
+.fondo-tickets {
+  background-image: url("../../src/img/fondo_tickets.png");
+}
+
+.big-bg-image {
+  background-image: url("../../src/img/double_carousel_background.jpg");
+}
+
+.custom-toggler.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(29,33,36, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+html { font-size: 0.7rem; }
+
+/* Headings */
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1.1rem; }
+
+
+.icon-carousel-title {
+  width: 5rem;
+  height: 4rem;
+}
+
+.logo {
+  position: absolute;
+  top: 2rem;
+  left: 40%;
+  width: 5rem;
+}
+
+.meet-the-squad {
+  position: relative;
+  width: 100%;
+  border-right: 7px solid $custom_orange;
+  opacity: 0.8;
+}
+
+.partners {
+  div {
+    height: 4rem; 
+  }
+}
+
+/* Extra small devices (not included in bootstrap, 380px and up)*/
+@media (min-width: 380px) {
+  .logo {
+    top: 1rem;
+    width: 8rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .border-sm-right {
+    border-right-width: 1px;
+    border-right-style: solid;
+  }
+
+  .border-sm-left {
+    border-left-width: 1px;
+    border-left-style: solid;
+  }
+
+  .partners {
+    div {
+      height: 5rem; 
+    }
+  }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  html { font-size: 0.7rem; }
+
+  /* Headings */
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.4rem; }
+  h4 { font-size: 1.3rem; }
+  h5 { font-size: 1.2rem; }
+
+
+  .meet-the-squad {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40%;
+  }
+
+  .logo {
+    top: 0;
+    left: 2rem;
+    width: 11rem;
+  }
+
+  .partners > div {
+    height: 6rem; 
+  }
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  html { font-size: 0.9rem; }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  html { font-size: 1rem; }
+
+  /* Headings */
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.4rem; }
+  h5 { font-size: 1.3rem; }
+}

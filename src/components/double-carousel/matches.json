@@ -1,0 +1,184 @@
+{     
+   "upcoming":
+      {
+      "firstSlide" : [
+         {
+            "team1": "Rovers A",
+            "team2": "Magpies B",
+            "date": "Wednesday 9th May",
+            "hour": "18:15"
+         },
+         {
+            "team1": "Tigers A",
+            "team2": "Falcons B",
+            "date": "Wednesday 9th May",
+            "hour": "18:15"
+         },
+         {
+            "team1": "Dragons FC",
+            "team2": "United FC",
+            "date": "Wednesday 9th May",
+            "hour": "18:15"
+         }
+      ],
+      "secondSlide" : [
+         {
+            "team1": "Rovers A",
+            "team2": "Falcons B",
+            "date": "Thursday 10th May",
+            "hour": "18:15"
+         },
+         {
+            "team1": "United FC",
+            "team2": "Magpies B",
+            "date": "Thursday 10th May",
+            "hour": "18:15"
+         },
+         {
+            "team1": "Dragons FC",
+            "team2": "Tigers A",
+            "date": "Thursday 10th May",
+            "hour": "18:15"
+         }
+      ],
+      "thirdSlide": [
+         {
+            "team1": "Rovers A",
+            "team2": "Tigers A",
+            "date": "Friday 11th May",
+            "hour": "18:15"
+         },
+         {
+            "team1": "Dragons FC",
+            "team2": "Magpies B",
+            "date": "Friday 11th May",
+            "hour": "18:15"
+         },
+         {
+            "team1": "United FC",
+            "team2": "Falcons B",
+            "date": "Friday 11th May",
+            "hour": "18:15"
+         }
+      ]
+   },
+
+
+   "latest":
+      {
+      "firstSlide" : [
+         {
+            "team1": {
+                "name": "Tigers A",
+                "score": "0"
+            },
+            "team2": {
+                "name": "Dragons FC",
+                "score": "16"
+            },
+            "date": "Tuesday 8th May",
+            "hour": "18:15"
+         },
+         {
+            "team1": {
+                "name": "Rovers A",
+                "score": "6"
+            },
+            "team2": {
+                "name": "United FC",
+                "score": "0"
+            },
+            "date": "Tuesday 8th May",
+            "hour": "18:15"
+         },
+         {
+            "team1": {
+                "name": "Magpies B",
+                "score": "0"
+            },
+            "team2": {
+                "name": "Falcons B",
+                "score": "8"
+            },
+            "date": "Tuesday 8th May",
+            "hour": "18:15"
+         }
+      ],
+      "secondSlide" : [
+        {
+           "team1": {
+               "name": "Tigers A",
+               "score": "16"
+           },
+           "team2": {
+               "name": "Falcons B",
+               "score": "6"
+           },
+           "date": "Monday 7th May",
+           "hour": "18:15"
+        },
+        {
+           "team1": {
+               "name": "Magpies B",
+               "score": "0"
+           },
+           "team2": {
+               "name": "United FC",
+               "score": "8"
+           },
+           "date": "Monday 7th May",
+           "hour": "18:15"
+        },
+        {
+           "team1": {
+               "name": "Rovers A",
+               "score": "6"
+           },
+           "team2": {
+               "name": "Dragons FC",
+               "score": "6"
+           },
+           "date": "Monday 7th May",
+           "hour": "18:15"
+        }
+     ],
+     "thirdSlide" : [
+        {
+           "team1": {
+               "name": "Tigers A",
+               "score": "6"
+           },
+           "team2": {
+               "name": "Magpies B",
+               "score": "8"
+           },
+           "date": "Monday 7th May",
+           "hour": "18:15"
+        },
+        {
+           "team1": {
+               "name": "Falcons B",
+               "score": "8"
+           },
+           "team2": {
+               "name": "Rovers A",
+               "score": "16"
+           },
+           "date": "Monday 7th May",
+           "hour": "18:15"
+        },
+        {
+           "team1": {
+               "name": "United FC",
+               "score": "16"
+           },
+           "team2": {
+               "name": "Dragons FC",
+               "score": "16"
+           },
+           "date": "Monday 7th May",
+           "hour": "18:15"
+        }
+     ]
+   }   
+}
